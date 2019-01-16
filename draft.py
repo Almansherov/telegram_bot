@@ -28,15 +28,6 @@ updater.start_polling()
 print("Job is finished")
 
 
-
-
-
-
-
-
-
-
-
 # import random
 # name = input("Your name please: ")
 # question = input("All right, " + name + ", do not hesitate asking questions about your future: ")
