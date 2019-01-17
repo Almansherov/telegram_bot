@@ -4,7 +4,7 @@ from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
 import random
 
-updater = Updater(token='760565322:AAF_i401TKDPb67A7PJStDF8drYs-4z-x3w')
+updater = Updater(token='your_token')
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 name = input()
