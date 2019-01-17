@@ -6,7 +6,7 @@ import os, sys
 import youtube_dl
 from pydl import MyLogger, my_hook, ydl_opts
 
-TOKEN = "760565322:AAF_i401TKDPb67A7PJStDF8drYs-4z-x3w"
+TOKEN = "(your_token_should_be_here)"
 
 def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
