@@ -16,3 +16,4 @@ Installation
 11. `pip install --upgrade youtube_dl`
 12. `cd` and `cd telegram_bot`
 13. `python dl.py`
+14. sudo apt-get install ffmpeg
