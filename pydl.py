@@ -28,5 +28,5 @@ ydl_opts = {
     'logger': MyLogger(),
     'progress_hooks': [my_hook],
 }
-# with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+# with youtube_dl.YoutubeDL({'source_address': '1.1.1.1'}) as ydl:
 #     ydl.download(['https://www.youtube.com/watch?v=NwZvqmy9fl4'])
